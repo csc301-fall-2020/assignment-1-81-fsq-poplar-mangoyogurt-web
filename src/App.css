@@ -4,3 +4,8 @@
   flex-wrap: wrap;
   height: 100%;
 }
+
+.component-info-menu {
+  width: 66%;
+  float: left;
+}

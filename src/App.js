@@ -1,11 +1,13 @@
 import React from 'react'
 
-import IDInput from './component/id_input/IDInput'
+import InfoMenu from './component/info_menu/InfoMenu'
 import './App.css'
 
 function App () {
   return (
-    <div className='App' />
+    <div className='App'>
+      <InfoMenu />
+    </div>
   )
 }
 

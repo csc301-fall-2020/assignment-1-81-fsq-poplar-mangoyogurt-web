@@ -1,0 +1,19 @@
+.component-options-bar {
+    width: 55%;
+    position: absolute;
+    bottom: 1vh;
+    left: 1.5vh;
+    overflow: auto;
+    float: left;
+}
+
+.component-options-bar button {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    font-size: 30px;
+    background-color: Transparent;
+    border-width: 0;
+}

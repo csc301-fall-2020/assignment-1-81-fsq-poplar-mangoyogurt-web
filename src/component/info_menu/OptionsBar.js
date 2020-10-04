@@ -12,8 +12,8 @@ export default class OptionsBar extends React.Component {
     render() {
       return (
         <div className="component-options-bar">
-            <button><FontAwesomeIcon icon={faUser} /><br/>Assistance</button> 
-            <button><FontAwesomeIcon icon={faLanguage} /><br/>Francais</button> 
+            <button><FontAwesomeIcon icon={faUser} /><br/>Help</button> 
+            <button disabled><FontAwesomeIcon icon={faLanguage} /><br/>Language</button> 
             <button><FontAwesomeIcon icon={faVolumeMute} /><br/>Volume</button> 
             <button><FontAwesomeIcon icon={faShoppingBag} /><br/>Own Bag</button> 
         </div>

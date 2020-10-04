@@ -10,30 +10,42 @@ export default class InfoMenu extends React.Component {
     constructor() {
       super()
 
-      this.handler = this.handler.bind(this)
+      this.showKeypadHandler = this.showKeypadHandler.bind(this)
+      this.newIDHandler = this.newIDHandler.bind(this)
       this.state = {
-        nextItem: "0"
+        nextItem: "0",
+        showKeypad: false
       }
     }
 
-    handler(newNI) {
+    showKeypadHandler() {
+      if (this.state.showKeypad) {
+        this.setState({showKeypad: false})
+      } else {
+        this.setState({showKeypad: true})
+      }
+    }
+
+    newIDHandler(newNI) {
       this.setState({
         nextItem: newNI
       })
     }
-
-    handleClick = buttonName => {
-        // TODO!
-    };
   
     render() {
+
+
       return (
         <div className="component-info-menu">
             <img src={require("../resources/banner_logo.png")} className="banner" alt="Shop Logo"/>
             <CurrentItem item={this.state.nextItem}/>
-            <ScanPrompt />
+            <ScanPrompt handler={this.showKeypadHandler}/>
             <OptionsBar />
-            <IDInput handler={this.handler}/>
+            {this.state.showKeypad
+              ? <IDInput handler={this.newIDHandler}/>
+              : <div/>
+            }
+            
         </div>
       );
     }

@@ -13,6 +13,7 @@ export default class IDInput extends React.Component {
 
   handleClick = buttonName => {
     this.setState(input(this.state, buttonName));
+    setTimeout(() => { this.props.handler(this.state.nextItem) }, 25); //Why is JS like this?
   };
   
     render() {

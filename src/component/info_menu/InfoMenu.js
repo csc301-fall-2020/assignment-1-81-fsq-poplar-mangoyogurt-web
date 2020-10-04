@@ -7,6 +7,21 @@ import IDInput from './id_input/IDInput'
 import './InfoMenu.css'
 
 export default class InfoMenu extends React.Component {  
+    constructor() {
+      super()
+
+      this.handler = this.handler.bind(this)
+      this.state = {
+        nextItem: "0"
+      }
+    }
+
+    handler(newNI) {
+      this.setState({
+        nextItem: newNI
+      })
+    }
+
     handleClick = buttonName => {
         // TODO!
     };
@@ -15,10 +30,10 @@ export default class InfoMenu extends React.Component {
       return (
         <div className="component-info-menu">
             <img src={require("../resources/banner_logo.png")} className="banner" alt="Shop Logo"/>
-            <CurrentItem />
+            <CurrentItem item={this.state.nextItem}/>
             <ScanPrompt />
             <OptionsBar />
-            <IDInput />
+            <IDInput handler={this.handler}/>
         </div>
       );
     }

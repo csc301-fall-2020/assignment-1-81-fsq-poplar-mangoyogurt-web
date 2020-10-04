@@ -1,11 +1,11 @@
 .component-info-menu {
-    position: absolute;
-    height: 100vh;
-    background-image: linear-gradient(to top right, DarkTurquoise , DeepSkyBlue);
+  position: absolute;
+  height: 100vh;
+  background-image: linear-gradient(to top right, darkturquoise, deepskyblue);
 }
 
 .banner {
-    margin: 1.5vh;
-    margin-bottom: 0;
-    height: 7.5vh;
+  margin: 1.5vh;
+  margin-bottom: 0;
+  height: 7.5vh;
 }

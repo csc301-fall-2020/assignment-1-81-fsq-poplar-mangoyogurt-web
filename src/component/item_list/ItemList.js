@@ -20,7 +20,7 @@ export default class ItemList extends React.Component {
         <div className="component-item-list">
             <ItemCount length={this.state.cart.length}/>
             <ListComponent cart={this.state.cart}/>
-            <PriceInfo />
+            <PriceInfo cart={this.state.cart}/>
         </div>
       );
     }

@@ -1,20 +1,17 @@
 import React from 'react';
 
 import './PriceInfo.css'
+import { totalPreTax, tax, total } from '../../logic/CostLogic'
 
 export default class PriceInfo extends React.Component {  
-    handleClick = buttonName => {
-        // TODO!
-    };
-  
     render() {
       return (
         <div className="component-price-info">
-            <div className="value-box-a">Taxes</div>
-            <div className="value-box-b">$[value]</div>
-            <div className="value-box-c">Total</div>
-            <div className="value-box-d">$[value]</div>
-            <button className="pay-button">Pay $[price]</button>
+            <div className="value-box-a">Taxes (13%)</div>
+            <div className="value-box-b">${tax(this.props.cart)}</div>
+            <div className="value-box-c">Total before taxes</div>
+            <div className="value-box-d">${totalPreTax(this.props.cart)}</div>
+            <button className="pay-button">Pay ${total(this.props.cart)}</button>
         </div>
       );
     }

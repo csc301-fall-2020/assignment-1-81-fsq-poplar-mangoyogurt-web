@@ -1,0 +1,12 @@
+.component-info-menu {
+  position: absolute;
+  width: 66%;
+  height: 100vh;
+  background-image: linear-gradient(to top right, darkturquoise, deepskyblue);
+}
+
+.banner {
+  margin: 1.5vh;
+  margin-bottom: 0;
+  height: 7.5vh;
+}

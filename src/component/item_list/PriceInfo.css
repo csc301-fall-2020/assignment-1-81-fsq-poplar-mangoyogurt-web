@@ -1,0 +1,46 @@
+.component-price-info {
+  height: 12.5vh;
+  padding: 1.5vh;
+}
+
+.value-box-a {
+  margin: 0 0 5px 0;
+  float: left;
+  width: 50%;
+  font-size: 150%;
+}
+
+.value-box-b {
+  margin: 0 0 5px 0;
+  float: left;
+  width: 50%;
+  font-size: 150%;
+  text-align: right;
+}
+
+.value-box-c {
+  margin: 5px 0 0 0;
+  float: left;
+  width: 50%;
+  font-size: 150%;
+  font-weight: 550;
+}
+
+.value-box-d {
+  margin: 5px 0 0 0;
+  float: left;
+  width: 50%;
+  font-size: 150%;
+  text-align: right;
+  font-weight: 550;
+}
+
+.pay-button {
+  font-weight: 550;
+  width: 90%;
+  background-color: deepskyblue;
+  font-size: 300%;
+  border-width: 0;
+  padding: 1vh 5% 1vh 5%;
+  margin: 1.5vh 5% 0 5%;
+}

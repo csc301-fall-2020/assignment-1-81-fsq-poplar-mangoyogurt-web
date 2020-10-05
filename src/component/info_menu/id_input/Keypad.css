@@ -1,0 +1,14 @@
+.component-keypad {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.component-keypad > div {
+  /* reminder the selector means divs with a parent of the panel class */
+  width: 100%;
+  margin-bottom: 1px;
+  flex-grow: 1;
+  display: flex;
+}

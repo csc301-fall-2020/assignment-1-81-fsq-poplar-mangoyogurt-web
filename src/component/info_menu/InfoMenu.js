@@ -30,6 +30,10 @@ export default class InfoMenu extends React.Component {
       this.setState({
         nextItem: newNI
       })
+
+      if (newNI !== "0") {
+        this.props.handler(newNI)
+      }
     }
   
     render() {

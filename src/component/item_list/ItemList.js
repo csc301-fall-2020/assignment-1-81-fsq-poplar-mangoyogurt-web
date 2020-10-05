@@ -6,15 +6,19 @@ import PriceInfo from './PriceInfo'
 
 import './ItemList.css'
 
-export default class ItemList extends React.Component {  
-    handleClick = buttonName => {
-        // TODO!
-    };
+export default class ItemList extends React.Component {
+    constructor(props) {
+      super()
+
+      this.state = {
+        cart: props.cart
+      }
+    }
   
     render() {
       return (
         <div className="component-item-list">
-            <ItemCount />
+            <ItemCount length={this.state.cart.length}/>
             <ListComponent />
             <PriceInfo />
         </div>

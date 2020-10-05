@@ -8,7 +8,7 @@ export default class ItemCount extends React.Component {
   render () {
     return (
       <div className='component-item-count'>
-        <FontAwesomeIcon icon={faShoppingCart} /> [x] items
+        <FontAwesomeIcon icon={faShoppingCart} /> {this.props.length} items
       </div>
     )
   }

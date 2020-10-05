@@ -12,7 +12,7 @@ export default class CurrentItem extends React.Component {
         <div className='component-current-item'>
               <div className="current-item-box-name">{PRODUCTS[id].name}</div>
               <div className="current-item-box-price">{"$" + PRODUCTS[id].price}</div>
-              <div className="current-item-box-id">{id}</div>
+              <div className="current-item-box-id">ID: {id}</div>
               <div className="item-picture-frame">
                 {/* <img className="item-picture" src={require("../resources/product_images/" + this.props.item)} /> */}
               </div>

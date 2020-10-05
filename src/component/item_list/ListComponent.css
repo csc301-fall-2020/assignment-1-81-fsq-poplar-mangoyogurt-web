@@ -1,4 +1,19 @@
 .component-list-component {
   height: 75vh;
-  border: 1px solid black;
+  overflow: auto;
+}
+
+.component-list-component-item-name {
+  width: 46%;
+  float: left;
+  padding: 2%;
+  font-size: 200%;
+}
+
+.component-list-component-item-price {
+  width: 46%;
+  float: left;
+  padding: 2%;
+  font-size: 200%;
+  text-align: right;
 }

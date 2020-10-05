@@ -1,18 +1,18 @@
 import React from 'react'
 
 import './ListComponent.css'
+import PRODUCTS from '../resources/products'
 
 export default class ListComponent extends React.Component {
   render () {
     return (
       <div className='component-list-component'>
-            This is where items and their prices would be displayed,
-        <li>probably</li>
-        <li>using</li>
-        <li>a</li>
-        <li>list?</li>
-            we will see <br />
-            obviously this border won't be here
+        {this.props.cart.map(cart => (
+        <div>
+          <div className="component-list-component-item-name">{PRODUCTS[cart].name}</div>
+          <div className="component-list-component-item-price">${PRODUCTS[cart].price}</div>
+        </div>
+      ))}
       </div>
     )
   }

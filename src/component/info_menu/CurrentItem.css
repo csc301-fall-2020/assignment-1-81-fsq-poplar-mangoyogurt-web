@@ -32,6 +32,7 @@
 .item-picture {
   width: 30%;
   height: auto;
+  max-height: 30vh;
   margin-left: 35%;
   margin-right: 35%;
   margin-top: 4vh;

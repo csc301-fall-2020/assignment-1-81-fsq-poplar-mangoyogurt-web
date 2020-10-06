@@ -3,6 +3,9 @@ import React from "react";
 import KeypadButton from "./KeypadButton";
 import "./Keypad.css";
 
+/**
+ * Component housing the buttons NOT DISPLAY for the "key in code" keypad
+ */
 export default class Keypad extends React.Component {
   handleClick = buttonName => {
     this.props.clickHandler(buttonName);

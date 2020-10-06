@@ -5,6 +5,9 @@ import KeyPad from './Keypad';
 import input from '../../../logic/IDInputLogic'
 import './IDInput.css'
 
+/**
+ * Top level class for the "key in code/ID" keypad
+ */
 export default class IDInput extends React.Component {  
   state = {
     id: "0",

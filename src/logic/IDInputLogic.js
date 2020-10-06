@@ -1,3 +1,9 @@
+/**
+ * Handler for button events on the IDInput keypad
+ *
+ * @param state current value of the IDInput, also the value on the display
+ * @param buttonName name/text on the button that determines functionality
+ */
 export default function input (state, buttonName) {
   if (buttonName === 'ENTER') {
     if (state.id === '0') {
@@ -33,6 +39,11 @@ export default function input (state, buttonName) {
   }
 }
 
+/**
+ * Checks if the input string is a one digit number
+ *
+ * @param item string being tested
+ */
 function isNumber (item) {
   return /[0-9]+/.test(item)
 }

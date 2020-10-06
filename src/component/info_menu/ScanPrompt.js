@@ -4,6 +4,9 @@ import { faKeyboard } from '@fortawesome/free-solid-svg-icons'
 
 import './ScanPrompt.css'
 
+/**
+ * Component in the InfoMenu/left side which prompts the user to scan their next item, or provide ability to key in the item's code (since scanning is not actually a feature)
+ */
 export default class ScanPrompt extends React.Component {  
     handleClick = buttonName => {
         this.props.handler()

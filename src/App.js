@@ -6,7 +6,7 @@ import './App.css'
 import PRODUCTS from './component/resources/products'
 
 export default class App extends React.Component {
-  constructor() {
+  constructor () {
     super()
 
     this.addToCartHandler = this.addToCartHandler.bind(this)
@@ -15,21 +15,21 @@ export default class App extends React.Component {
     }
   }
 
-  addToCartHandler(id) {
+  addToCartHandler (id) {
     if (PRODUCTS[id]) {
       const newCart = this.state.cart
       newCart.push(id)
       this.setState({
         cart: newCart
       })
-    } 
+    }
   }
 
-  render() {
+  render () {
     return (
       <div className='App'>
-        <InfoMenu handler={this.addToCartHandler}/>
-        <ItemList cart={this.state.cart}/>
+        <InfoMenu handler={this.addToCartHandler} />
+        <ItemList cart={this.state.cart} />
       </div>
     )
   }

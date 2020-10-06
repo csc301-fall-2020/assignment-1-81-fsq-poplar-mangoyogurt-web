@@ -4,6 +4,9 @@ import { faUser, faLanguage, faVolumeMute, faShoppingBag } from '@fortawesome/fr
 
 import './OptionsBar.css'
 
+/**
+ * Component which houses quality-of-life features, present at the button of the InfoMenu component/left side
+ */
 export default class OptionsBar extends React.Component {  
     handleClick = buttonName => {
         // TODO!

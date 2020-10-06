@@ -7,13 +7,13 @@ var PRODUCTS = {}
 
 const productsRef = firebase.database().ref('products')
 productsRef.on('value', (snapshot) => {
-  let dbItems = snapshot.val();
-  for (let item in dbItems) {
+  const dbItems = snapshot.val()
+  for (const item in dbItems) {
     PRODUCTS[item.toString()] = {
       name: dbItems[item].name,
       price: dbItems[item].price
     }
   }
-});
+})
 
 export default PRODUCTS

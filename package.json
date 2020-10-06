@@ -1,6 +1,6 @@
 {
-  "homepage": "http://fsq-poplar.github.io/assignment-1-81-fsq-poplar-mangoyogurt-web",
-  "name": "actual",
+  "homepage": "https://csc301-fall-2020.github.io/assignment-1-81-fsq-poplar-mangoyogurt-web/",
+  "name": "assignment-1-81-fsq-poplar-mangoyogurt-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,7 +39,6 @@
   },
   "devDependencies": {
     "firebase": "^7.22.1",
-    "gh-pages": "^3.1.0",
-    "jest": "^26.5.0"
+    "gh-pages": "^3.1.0"
   }
 }

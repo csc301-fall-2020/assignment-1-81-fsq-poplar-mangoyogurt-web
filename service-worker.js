@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/assignment-1-81-fsq-poplar-mangoyogurt-web/precache-manifest.b9d710a3e116dd0c26774ccac574fcfd.js"
+  "/assignment-1-81-fsq-poplar-mangoyogurt-web/precache-manifest.23190aff8d7914e27bd22223e5cce20a.js"
 );
 
 self.addEventListener('message', (event) => {

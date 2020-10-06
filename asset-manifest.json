@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/css/main.1f84b675.chunk.css",
-    "main.js": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/main.81cbb481.chunk.js",
-    "main.js.map": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/main.81cbb481.chunk.js.map",
-    "runtime-main.js": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/runtime-main.b24695ca.js",
-    "runtime-main.js.map": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/runtime-main.b24695ca.js.map",
-    "static/js/2.b390a284.chunk.js": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/2.b390a284.chunk.js",
-    "static/js/2.b390a284.chunk.js.map": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/2.b390a284.chunk.js.map",
+    "main.js": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/main.40cf9329.chunk.js",
+    "main.js.map": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/main.40cf9329.chunk.js.map",
+    "runtime-main.js": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/runtime-main.2cbf3629.js",
+    "runtime-main.js.map": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/runtime-main.2cbf3629.js.map",
+    "static/js/2.e5bb79b8.chunk.js": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/2.e5bb79b8.chunk.js",
+    "static/js/2.e5bb79b8.chunk.js.map": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/2.e5bb79b8.chunk.js.map",
     "index.html": "/assignment-1-81-fsq-poplar-mangoyogurt-web/index.html",
-    "precache-manifest.b9d710a3e116dd0c26774ccac574fcfd.js": "/assignment-1-81-fsq-poplar-mangoyogurt-web/precache-manifest.b9d710a3e116dd0c26774ccac574fcfd.js",
+    "precache-manifest.23190aff8d7914e27bd22223e5cce20a.js": "/assignment-1-81-fsq-poplar-mangoyogurt-web/precache-manifest.23190aff8d7914e27bd22223e5cce20a.js",
     "service-worker.js": "/assignment-1-81-fsq-poplar-mangoyogurt-web/service-worker.js",
     "static/css/main.1f84b675.chunk.css.map": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/css/main.1f84b675.chunk.css.map",
-    "static/js/2.b390a284.chunk.js.LICENSE.txt": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/2.b390a284.chunk.js.LICENSE.txt",
+    "static/js/2.e5bb79b8.chunk.js.LICENSE.txt": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/js/2.e5bb79b8.chunk.js.LICENSE.txt",
     "static/media/1.png": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/media/1.282e5cd7.png",
     "static/media/10.png": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/media/10.d06966f7.png",
     "static/media/11.png": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/media/11.adc33bd2.png",
@@ -28,9 +28,9 @@
     "static/media/banner_logo.png": "/assignment-1-81-fsq-poplar-mangoyogurt-web/static/media/banner_logo.8d8eb008.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b24695ca.js",
-    "static/js/2.b390a284.chunk.js",
+    "static/js/runtime-main.2cbf3629.js",
+    "static/js/2.e5bb79b8.chunk.js",
     "static/css/main.1f84b675.chunk.css",
-    "static/js/main.81cbb481.chunk.js"
+    "static/js/main.40cf9329.chunk.js"
   ]
 }

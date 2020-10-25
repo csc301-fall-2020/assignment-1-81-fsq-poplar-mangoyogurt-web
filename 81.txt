@@ -1,0 +1,86 @@
+Team 81
+Poplar Wang
+Ruidong YANG
+
+
+
+
+
+
+Final Grade: 79
+
+-------------------
+-------------------
+
+
+
+A.	Web App Grade: 44
+---------------------
+
+1-	Report: 23
+A fairly reasonable comparison between alternative technologies for web development. The report almost addresses all the expectations of the assignment.
+
+
+ 
+2-	Application:
+
+- Final Web Page: 10
+A version of the app is depolyed on GitHub io (It seems that it is not properly working!) 
+
+
+
+
+- Unit Test: 3
+Some unit tests included.
+
+- Instructions on how to reproduce: 2
+Reasonable information about how to work with the project as a developer.
+More details about how to set up and run the project. What to install form where which version...
+
+
+ 
+  
+3-	Pipeline (bonus): 6
+It seems that CircleCI is set up and used in the project.
+No successful pass of Circle CI checks.
+
+
+
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+
+
+B.	Mobile App Grade: 35
+-------------------------
+1-	Report: 23
+
+A fairly reasonable comparison between alternative technologies for mobile development. The report almost addresses all the expectations of the assignment.
+The comparison criteria need to be more technical and the pros and cons of each framework need to be further analyzed. 
+
+Some parts of the report is similar to the web report.
+
+
+
+ 
+2-	Application: 
+
+- Final APK: 10
+Final APK released.
+
+
+
+
+
+- Unit Test:  0
+No unit tests included.
+
+
+- Instructions on how to reproduce: 2
+Little information about how to work with the project as a developer.
+More details about how to set up and run the project. What to install form where which version...
+
+
+3-	Pipeline (bonus): 0
+CircleCI is not set up and used in the repository.
